@@ -4,5 +4,5 @@ ToDo App is simple and awesome app to organize your tasks with very easy to use 
 Moreover this is a demonstration app created for explaining the concept of Android in a project class
 
 Implementation Features
-- Login 
-- Register
+- Login (Basic UI completed)
+- Register (Basic UI completed)
