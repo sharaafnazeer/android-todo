@@ -4,6 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+
+// Listview -> Simple List view
+                // Custom List view
+
+// RecyclerView
+
+// ToDo list
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

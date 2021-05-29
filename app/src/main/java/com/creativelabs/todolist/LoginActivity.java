@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.creativelabs.todolist.listviews.ListsCustomActivity;
+import com.creativelabs.todolist.listviews.ListsSimpleActivity;
+
 public class LoginActivity extends AppCompatActivity {
 
     private TextView tvNewUser;
@@ -26,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         btnLogin.setOnClickListener(v -> {
-            Intent mainIntent = new Intent(this, MainActivity.class);
+            Intent mainIntent = new Intent(this, ListsCustomActivity.class);
             startActivity(mainIntent);
             finish(); // To finish current activity
         });
