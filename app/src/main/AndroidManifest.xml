@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ToDoList">
-        <activity android:name=".listviews.ListsCustomActivity"></activity>
+        <activity android:name=".listviews.ListsRecyclerActivity"></activity>
+        <activity android:name=".listviews.ListsCustomActivity" />
         <activity android:name=".listviews.ListsSimpleActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity">
